@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function Add(){
+   var n1 = parseInt(document.getElementById("btn1").value);
+   var n2 = parseInt(document.getElementById("btn2").value);
+   var n3 = document.getElementById("btn3");
+   n3.value = n1+n2;
+ }
+ function Sub(){
+   var n1 = parseInt(document.getElementById("btn1").value);
+   var n2 = parseInt(document.getElementById("btn2").value);
+   var n3 = document.getElementById("btn3");
+   n3.value = n1-n2;
+ }
+function Mul(){
+   var n1 = parseInt(document.getElementById("btn1").value);
+   var n2 = parseInt(document.getElementById("btn2").value);
+   var n3 = document.getElementById("btn3");
+   n3.value = n1*n2;
+ }
+function Div(){
+   var n1 = parseInt(document.getElementById("btn1").value);
+   var n2 = parseInt(document.getElementById("btn2").value);
+   var n3 = document.getElementById("btn3");
+   n3.value = n1/n2;
+ }
+
+</script>
+</head>
+
+<body>
+<form>
+<center><legend style="border:solid 2px; width:400px; height:150px; border-radius:25px;">
+<label style="margin-left:0.1em;">Enter 1st Number</label><input id="btn1" type="text" style="width:120px; height:20px;  margin-left:0.8em; margin-bottom:1em; margin-top:1.4em;"/>
+<input name="btn4" type="button" value="+" onClick="Add()" style="height:26px; width:26px; margin-left:0.2em; margin-right:0.2em;"/>
+<input id="btn7" type="button" value="-" onClick="Sub();" style="height:26px; width:26px; "/><br>
+<label>Enter 2nd Number</label><input id="btn2" type="text" style="width:120px; height:20px;  margin-left:0.5em;"/>
+<input id="btn11" type="button" value="*" onClick="Mul();" style="height:26px; width:26px;  margin-left:0.2em; margin-right:0.2em;"/>
+<input id="btn14" type="button" value="/" onClick="Div();" style="margin-bottom:1.2em; height:26px; width:26px;"/><br>
+<label style="margin-left:0.7em;">Result</label><input id="btn3" type="text" placeholder="0" style="width:120px; height:20px; margin-left:0.6em; margin-bottom:1em;"/>
+</legend></center>
+</form>
+</body>
+</html>
