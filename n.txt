@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-=======
-htdfgsjyghdgfh
-hgtfugjfgjyh
->>>>>>> parent of 12a79c5... First C
+
