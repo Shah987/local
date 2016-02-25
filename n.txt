@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 htdfgsjyghdgfh
 hgtfugjfgjyh
+=======
+>>>>>>> parent of e6f36de... hjgf
